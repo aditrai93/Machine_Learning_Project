@@ -1,4 +1,4 @@
-from python:3.7
+From python:3.7
 COPY ./app
 WORKDIR /app
 RUN pip install -r requirement.txt
