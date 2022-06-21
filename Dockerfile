@@ -1,5 +1,5 @@
 From python:3.7
-COPY ./app
+COPY . /app
 WORKDIR /app
 RUN pip install -r requirement.txt
 EXPOSE $PORT
